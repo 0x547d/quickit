@@ -1,0 +1,10 @@
+# 启动时配置，启动后无法热加载
+
+web:
+  listenAddr: ":80"
+  urlPrefix: "/"
+  mediaDir: "/app"
+
+
+db:
+  dsn: "user:pass@tcp(127.0.0.1:3306)/quickit?charset=utf8mb4&parseTime=True&loc=Local"
